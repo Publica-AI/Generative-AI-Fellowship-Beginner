@@ -25,7 +25,7 @@ This topic introduces Large Language Models conceptually and practically. Studen
 
 ---
 
-## Topic 2: Overview of Popular LLMs (GPT, Claude, Gemini, LLaMA)
+## Topic 2: Overview of Popular LLMs
 
 **Title:** Overview of Popular LLMs
 
