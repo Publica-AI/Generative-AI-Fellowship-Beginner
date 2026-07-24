@@ -1,0 +1,461 @@
+[
+    {
+        "title": "html structure and semantics",
+        "description": "DOCTYPE declaration",
+        "type": "multiple choice",
+        "question": "What is the correct DOCTYPE declaration for an HTML5 document?",
+        "options": "<!DOCTYPE html5>|<!DOCTYPE html>|<html doctype='5'>|<!DOCTYPE HTML PUBLIC>",
+        "answer": "<!DOCTYPE html>",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "head vs body",
+        "type": "multiple choice",
+        "question": "A Nigerian developer puts a paragraph tag inside the <head> of their page. What will happen?",
+        "options": "The paragraph displays at the top of the page|The paragraph is hidden by default|The HTML is invalid — visible content belongs in the body|The browser will throw a JavaScript error",
+        "answer": "The HTML is invalid — visible content belongs in the body",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "heading hierarchy",
+        "type": "True or False",
+        "question": "A web page should have only one <h1> element — it represents the main page title.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "anchor tags",
+        "type": "multiple choice",
+        "question": "A Lagos developer wants a link on their portfolio page that jumps to the #contact section on the same page. Which href value is correct?",
+        "options": "href='contact'|href='#contact'|href='./contact'|href='page.html#contact'",
+        "answer": "href='#contact'",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "alt attribute",
+        "type": "multiple choice",
+        "question": "Which of the following best describes the purpose of the alt attribute on an <img> tag?",
+        "options": "It sets the image title shown on hover|It provides a text description for accessibility and when the image fails to load|It controls the image dimensions|It links the image to a file",
+        "answer": "It provides a text description for accessibility and when the image fails to load",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "semantic elements",
+        "type": "multiple choice",
+        "question": "A developer is building the Nigerian news site. Which element should wrap the main navigation links?",
+        "options": "<div class='nav'>|<navigation>|<nav>|<menu>",
+        "answer": "<nav>",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "form inputs",
+        "type": "multiple choice",
+        "question": "A Paystack payment form needs a field that only accepts email addresses. Which input type should be used?",
+        "options": "type='text'|type='email'|type='string'|type='address'",
+        "answer": "type='email'",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "tables",
+        "type": "True or False",
+        "question": "HTML tables should be used for page layout instead of CSS Flexbox or Grid.",
+        "options": "True|False",
+        "answer": "False",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "div vs semantic elements",
+        "type": "multiple choice",
+        "question": "Which HTML element represents a self-contained piece of content like a blog post or news article?",
+        "options": "<section>|<div>|<article>|<content>",
+        "answer": "<article>",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "html structure and semantics",
+        "description": "target blank security",
+        "type": "multiple choice",
+        "question": "A developer adds target='_blank' to a link. What additional attribute should they include for security?",
+        "options": "rel='external'|rel='noopener noreferrer'|rel='blank'|rel='secure'",
+        "answer": "rel='noopener noreferrer'",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "CSS selector specificity",
+        "type": "multiple choice",
+        "question": "Which CSS selector has the highest specificity?",
+        "options": "p { color: red; }|.text { color: red; }|#title { color: red; }|* { color: red; }",
+        "answer": "#title { color: red; }",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "box model",
+        "type": "multiple choice",
+        "question": "A developer sets width: 200px on a div. With box-sizing: content-box, where does the padding go?",
+        "options": "Inside the 200px width|Outside the 200px width, making the element wider|It is ignored|It replaces the border",
+        "answer": "Outside the 200px width, making the element wider",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "box-sizing border-box",
+        "type": "True or False",
+        "question": "Setting box-sizing: border-box means the padding and border are included within the element's declared width.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "flexbox axis",
+        "type": "multiple choice",
+        "question": "On a flex container with the default flex-direction, which property controls alignment along the horizontal main axis?",
+        "options": "align-items|align-content|justify-content|flex-align",
+        "answer": "justify-content",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "CSS Grid vs Flexbox",
+        "type": "multiple choice",
+        "question": "A developer is building a dashboard layout for a Nigerian fintech app with a sidebar, header, main content, and footer. Which CSS tool is best suited for this two-dimensional layout?",
+        "options": "Flexbox|CSS Grid|Float|CSS Tables",
+        "answer": "CSS Grid",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "responsive design viewport",
+        "type": "multiple choice",
+        "question": "A Nigerian developer forgets to include the viewport meta tag. What is the most likely result on mobile devices?",
+        "options": "The page loads faster|The browser zooms out to show the desktop version|The page becomes unstyled|JavaScript stops working",
+        "answer": "The browser zooms out to show the desktop version",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "media queries",
+        "type": "multiple choice",
+        "question": "Which media query applies styles only when the screen width is 768px or smaller?",
+        "options": "@media (min-width: 768px)|@media (max-width: 768px)|@media screen and (width: 768px)|@media (screen < 768px)",
+        "answer": "@media (max-width: 768px)",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "position property",
+        "type": "multiple choice",
+        "question": "A developer wants a navigation bar that stays fixed at the top of the screen as the user scrolls. Which position value should they use?",
+        "options": "position: absolute|position: relative|position: fixed|position: sticky",
+        "answer": "position: fixed",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "CSS custom properties",
+        "type": "multiple choice",
+        "question": "A developer defines --brand-color: #387F7F on the :root. How do they use this variable on a button?",
+        "options": "background-color: brand-color|background-color: $brand-color|background-color: var(--brand-color)|background-color: --brand-color",
+        "answer": "background-color: var(--brand-color)",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "css styling and layout",
+        "description": "DECIMAL for money",
+        "type": "True or False",
+        "question": "In CSS, the fr unit in CSS Grid represents a fraction of the available space in the grid container.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "let vs const",
+        "type": "multiple choice",
+        "question": "A developer declares const price = 5000. They then try to run price = 6000. What happens?",
+        "options": "price becomes 6000|A TypeError is thrown — const cannot be reassigned|The value changes but only temporarily|JavaScript silently ignores the reassignment",
+        "answer": "A TypeError is thrown — const cannot be reassigned",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "strict equality",
+        "type": "multiple choice",
+        "question": "What does '5' === 5 evaluate to in JavaScript?",
+        "options": "true|false|NaN|undefined",
+        "answer": "false",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "truthy and falsy",
+        "type": "True or False",
+        "question": "In JavaScript, an empty string '' and the number 0 are both falsy values.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "array methods",
+        "type": "multiple choice",
+        "question": "A developer has an array of Nigerian bank names and wants to add 'Zenith Bank' to the end. Which method should they use?",
+        "options": "banks.unshift('Zenith Bank')|banks.push('Zenith Bank')|banks.add('Zenith Bank')|banks.append('Zenith Bank')",
+        "answer": "banks.push('Zenith Bank')",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "function return value",
+        "type": "multiple choice",
+        "question": "A developer writes a function that calculates VAT but forgets the return statement. What does the function return?",
+        "options": "0|null|undefined|An error is thrown",
+        "answer": "undefined",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "DOM selection",
+        "type": "multiple choice",
+        "question": "A developer wants to select ALL elements with the class 'product-card' on a Jumia-style page. Which method should they use?",
+        "options": "document.getElementById('product-card')|document.querySelector('.product-card')|document.querySelectorAll('.product-card')|document.getElementByClass('product-card')",
+        "answer": "document.querySelectorAll('.product-card')",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "event preventDefault",
+        "type": "multiple choice",
+        "question": "A developer adds a submit event listener to a contact form but the page keeps reloading on submit. What is missing?",
+        "options": "event.stopPropagation()|event.preventDefault()|event.cancel()|return false",
+        "answer": "event.preventDefault()",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "template literals",
+        "type": "multiple choice",
+        "question": "Which syntax correctly embeds the variable name inside a string in JavaScript?",
+        "options": "'Hello ' + {name}|`Hello ${name}`|'Hello $name'|\"Hello \" & name",
+        "answer": "`Hello ${name}`",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "object access",
+        "type": "multiple choice",
+        "question": "A developer has a variable key = 'city'. They want to access customer[key]. Which notation must they use?",
+        "options": "customer.key|customer[key]|customer{'key'}|customer.city",
+        "answer": "customer[key]",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript fundamentals",
+        "description": "innerHTML vs textContent",
+        "type": "True or False",
+        "question": "Using innerHTML with untrusted user input can create an XSS security vulnerability.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "array map",
+        "type": "multiple choice",
+        "question": "A developer uses Array.map() on an array of Nigerian product prices to apply 7.5% VAT to each price. What does map() return?",
+        "options": "It modifies the original array in place|A new array of the same length with the updated prices|A single total value|undefined",
+        "answer": "A new array of the same length with the updated prices",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "array filter",
+        "type": "multiple choice",
+        "question": "A developer runs prices.filter(p => p > 5000) on an array of Naira prices. What is returned?",
+        "options": "The first price greater than 5000|A new array containing only prices greater than 5000|The number of prices greater than 5000|true or false",
+        "answer": "A new array containing only prices greater than 5000",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "async await",
+        "type": "multiple choice",
+        "question": "A developer writes an async function but does not use await before a fetch call. What does the function receive?",
+        "options": "The resolved data|A Promise object|undefined|null",
+        "answer": "A Promise object",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "fetch error handling",
+        "type": "True or False",
+        "question": "The fetch() function throws an error when the server returns a 404 status code.",
+        "options": "True|False",
+        "answer": "False",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "localStorage",
+        "type": "multiple choice",
+        "question": "A developer saves a user's preferred language to localStorage. What happens to this data when the user closes and reopens the browser?",
+        "options": "The data is deleted|The data persists — localStorage survives browser restarts|The data expires after 24 hours|The data is only available on that tab",
+        "answer": "The data persists — localStorage survives browser restarts",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "ES6 destructuring",
+        "type": "multiple choice",
+        "question": "Given const { name, city } = customer, what does this JavaScript feature do?",
+        "options": "Creates a copy of the customer object|Extracts name and city from customer into separate variables|Merges two objects|Converts customer to JSON",
+        "answer": "Extracts name and city from customer into separate variables",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "ES6 modules",
+        "type": "multiple choice",
+        "question": "A developer splits their Nigerian app into modules and uses export default function calculate(). How do they import this in another file?",
+        "options": "import { calculate } from './utils.js'|import calculate from './utils.js'|import * as calculate from './utils.js'|require('./utils.js')",
+        "answer": "import calculate from './utils.js'",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "Promise.all",
+        "type": "multiple choice",
+        "question": "A developer uses Promise.all([fetchUser(), fetchOrders()]) to load data in parallel. What does Promise.all() return?",
+        "options": "The result of the fastest promise|An array with both results when both promises resolve|The result of the first resolved promise|It runs them sequentially",
+        "answer": "An array with both results when both promises resolve",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "class inheritance",
+        "type": "True or False",
+        "question": "In a class that extends another class, super() must be called in the constructor before using the this keyword.",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "javascript advanced",
+        "description": "spread operator",
+        "type": "multiple choice",
+        "question": "A developer writes const merged = {...defaults, ...overrides}. What does the spread operator do here?",
+        "options": "Creates a nested object|Merges both objects — overrides values take precedence for duplicate keys|Converts objects to arrays|Compares the two objects",
+        "answer": "Merges both objects — overrides values take precedence for duplicate keys",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "git and github",
+        "description": "Git vs GitHub",
+        "type": "multiple choice",
+        "question": "A Lagos developer says 'I use GitHub for version control'. What is technically inaccurate about this statement?",
+        "options": "Nothing — GitHub and version control are the same thing|Git is the version control tool — GitHub is a cloud hosting platform for Git repositories|GitHub is for version control but Git is only for backups|GitHub does not support version control",
+        "answer": "Git is the version control tool — GitHub is a cloud hosting platform for Git repositories",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "git add and commit",
+        "type": "multiple choice",
+        "question": "A developer edits index.html but runs git commit -m 'update homepage' without running git add first. What happens?",
+        "options": "The commit includes the changes to index.html|The commit is created but empty — the changes were not staged|Git throws an error and stops|The commit is automatically staged",
+        "answer": "The commit is created but empty — the changes were not staged",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "gitignore",
+        "type": "True or False",
+        "question": "A .env file containing API keys will be ignored by Git if it is listed in .gitignore — even when running git add .",
+        "options": "True|False",
+        "answer": "True",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "git log",
+        "type": "multiple choice",
+        "question": "A developer wants to see a compact one-line summary of all commits. Which command should they use?",
+        "options": "git log|git log --oneline|git history|git commits --short",
+        "answer": "git log --oneline",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "branching",
+        "type": "multiple choice",
+        "question": "A Paystack developer is adding a new feature. They want to work on it without affecting the main branch. What is the correct first step?",
+        "options": "Edit files directly on main|git switch -c feature/new-feature|git commit -m 'start feature'|git push origin main",
+        "answer": "git switch -c feature/new-feature",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "merge conflict",
+        "type": "multiple choice",
+        "question": "After resolving a merge conflict in style.css, what must the developer do before the merge is complete?",
+        "options": "Run git merge --continue|Edit the conflict markers and then run git add style.css and git commit|Run git push immediately|Delete the branch",
+        "answer": "Edit the conflict markers and then run git add style.css and git commit",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "git and github",
+        "description": "git push first time",
+        "type": "multiple choice",
+        "question": "A developer runs git push for the first time on a new branch and gets an error. What flag sets up the upstream tracking?",
+        "options": "-f|--force|--set-upstream or -u|--track",
+        "answer": "--set-upstream or -u",
+        "difficulty": "intermediate"
+    },
+    {
+        "title": "git and github",
+        "description": "pull request",
+        "type": "multiple choice",
+        "question": "A developer working on a Nigerian open source project wants to propose changes to the original repository. What is the correct workflow?",
+        "options": "Push directly to the original repository|Fork the repo → clone the fork → make changes → open a Pull Request|Email the changes to the maintainer|Run git merge on the original repo",
+        "answer": "Fork the repo → clone the fork → make changes → open a Pull Request",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "commit message",
+        "type": "True or False",
+        "question": "A commit message of 'fix' is considered a professional and acceptable commit message in a team environment.",
+        "options": "True|False",
+        "answer": "False",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "git clone vs git pull",
+        "type": "multiple choice",
+        "question": "A new developer joins an Andela team and needs to get the project on their laptop for the first time. Which command should they use?",
+        "options": "git pull origin main|git fetch origin|git clone <repository-url>|git init",
+        "answer": "git clone <repository-url>",
+        "difficulty": "beginner"
+    },
+    {
+        "title": "git and github",
+        "description": "Closes issue syntax",
+        "type": "multiple choice",
+        "question": "A developer wants their Pull Request to automatically close Issue #7 when merged. What should they include in the PR description?",
+        "options": "Fixes issue 7|Closes #7|Resolves issue-7|Merge #7",
+        "answer": "Closes #7",
+        "difficulty": "intermediate"
+    }
+]

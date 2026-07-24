@@ -1,0 +1,33 @@
+{
+  "course": "generative_ai_fellowship_beginner",
+  "module": "Web Development Fundamentals",
+  "project_title": "My Naija Developer Portfolio",
+  "project_brief": "## My Naija Developer Portfolio\n\nBuild a single-page personal portfolio website and manage the entire build using Git and GitHub. This project brings together HTML, CSS, JavaScript, and the Git workflow you learned across Weeks 4, 5, and 6.\n\n---\n\n### What You Are Building\n\nA complete single-page portfolio website for yourself as a Nigerian developer. The page must have four sections:\n\n1. **Hero section** — your name and a short tagline (e.g. 'Full-Stack AI Developer | Lagos, Nigeria')\n2. **About section** — two or three sentences about yourself and your goals\n3. **Skills section** — a list of at least 5 technologies you have learned in this program\n4. **Contact section** — a form with name, email, and message fields plus a submit button\n\n---\n\n### Stage 1 — HTML Structure\n\nBuild the full HTML structure of your portfolio. All four sections must be present. Use semantic HTML elements: header, main, section, footer. The contact form must have name, email, and message fields. Add a nav bar linking to each section.\n\nMake your first Git commit when the HTML structure is complete:\n```\ngit add .\ngit commit -m \"Add HTML structure for all four sections\"\n```\n\n---\n\n### Stage 2 — CSS Styling\n\nStyle the entire page. Requirements:\n- A consistent colour scheme — at least one primary colour\n- Use Flexbox for at least one section layout\n- The page must look correct on mobile (screen width 375px) — use at least one media query\n- Navigation links must have a hover effect\n\nMake a second Git commit when styling is complete:\n```\ngit commit -m \"Add CSS styling and responsive layout\"\n```\n\n---\n\n### Stage 3 — JavaScript\n\nAdd one JavaScript feature — contact form validation:\n- When the user clicks Submit, check that the name field is not empty and the email field contains an @ symbol\n- If validation fails, show an error message near the form (do not use alert())\n- If validation passes, show a success message (e.g. 'Message sent! I will get back to you.') and clear the form fields\n- The page must NOT reload when the form is submitted\n\nMake a third Git commit when JavaScript is complete:\n```\ngit commit -m \"Add contact form validation with success message\"\n```\n\n---\n\n### Stage 4 — Git and GitHub\n\n- Push your project to GitHub: `git push -u origin main`\n- Your README.md must include your name, a description of the project, and how to open it\n- Confirm your GitHub repository is public and accessible\n\n---\n\n### Deliverables\n- A public GitHub repository link containing your portfolio\n- At least 3 meaningful commits visible in the repository history\n- A README.md in the repository\n- The portfolio opens correctly when index.html is opened in a browser",
+  "submission_format": "GitHub Repository Link",
+  "grading_notes": "The GitHub repository link is the submission — open index.html in a browser to test it. Check the commit history for at least 3 commits with meaningful messages. Test the contact form: submit with empty fields (should show error), submit with valid name and email (should show success and clear fields). Resize the browser to 375px to test mobile responsiveness — no overflowing or overlapping content. Accept any Nigerian context the student uses for their name, bio, and skills. Do not penalise minor design choices — assess on structure, responsiveness, JavaScript functionality, and Git workflow. The README does not need to be elaborate — name, description, and how to open it is sufficient.",
+  "rubric": {
+    "total_points": 100,
+    "criteria": [
+      {
+        "id": "html_structure",
+        "description": "All four sections are present: Hero (name + tagline), About (bio), Skills (list of 5+ technologies), Contact (form with name, email, message, submit). Semantic HTML elements are used — header, main, section, footer. A navigation bar links to each section. No major structural errors.",
+        "max_points": 25
+      },
+      {
+        "id": "css_styling_and_responsiveness",
+        "description": "A consistent colour scheme is applied across the page. Flexbox is used for at least one section layout. The page displays correctly at 375px width with no overflowing or overlapping elements — at least one media query is present. Navigation links have a visible hover effect.",
+        "max_points": 25
+      },
+      {
+        "id": "javascript_form_validation",
+        "description": "The contact form validates on submit without reloading the page (event.preventDefault() is used). An error message appears if the name is empty or the email does not contain @. A success message appears and the form is cleared when both fields are valid. No alert() is used.",
+        "max_points": 25
+      },
+      {
+        "id": "git_workflow_and_github",
+        "description": "The repository is public and accessible. At least 3 commits are visible in the history with meaningful messages (not 'update', 'fix', or empty). The final project is pushed to GitHub. A README.md is present with the student's name, project description, and how to open it.",
+        "max_points": 25
+      }
+    ]
+  }
+}
